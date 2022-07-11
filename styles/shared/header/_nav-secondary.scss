@@ -1,0 +1,15 @@
+.header-secondary {
+  .nav-social {
+    ul {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+
+  .nav-controls {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
