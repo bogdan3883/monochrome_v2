@@ -1,15 +1,45 @@
-.header-secondary {
-  .nav-social {
-    ul {
-      display: flex;
-      justify-content: flex-start;
-    }
-  }
+.header-connect {
+  float: left;
+  li {
+    display: inline-block;
 
-  .nav-controls {
-    ul {
-      display: flex;
-      justify-content: flex-end;
+  }
+}
+
+.header-controls {
+  float: right;
+  li {
+    display: inline-block;
+
+    [type='text'] {
+      background-color: transparent;
+      border: 0;
+      color: $white;
+      display: inline-block;
+    }
+
+    [type='submit'] {
+      background-color: transparent;
+      border: 0;
+      color: gray;
+      display: inline-block;
     }
   }
 }
+
+.search-box {
+  border: 1px solid gray;
+}
+.header-banner {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+// .header-banner {
+//   position: relative;
+//   img {
+//     width: 100%;
+//     max-width: 1000px;
+//   }
+// }

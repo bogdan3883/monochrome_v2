@@ -1,7 +1,10 @@
 export default function HeaderSecondary() {
   return (
-    <section className="header-secondary container d-none d-lg-block">
-      <div className="nav-social ">
+    <section className="header-secondary d-none d-lg-block">
+
+      <section className="header-secondary-inner container">
+
+      <div className="header-connect">
         <ul>
           <li>
             <a href="https://x.ro" title="Youtube">
@@ -29,10 +32,11 @@ export default function HeaderSecondary() {
             </a>
           </li>
         </ul>
+        </div>
 
-        <div className="nav-controls">
+        <div className="header-controls">
           <ul>
-            <li>
+            <li className="search-box">
               <button type="submit" title="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
@@ -62,7 +66,17 @@ export default function HeaderSecondary() {
             </li>
           </ul>
         </div>
+
+
+      </section>
+      <section className="header-banner">
+      <div className="header-banner">
+        <img src="/images/banners/banner.png" className="img-fluid" alt="Monochrome Banner" />
       </div>
+      </section>
     </section>
+
+
+
   );
 }
