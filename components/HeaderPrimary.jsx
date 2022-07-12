@@ -39,7 +39,7 @@ export default function HeaderPrimary() {
       <div className="nav-search d-lg-none">
         <ul>
           <li className="hamburger">
-            <a href="http://www.pixellab.ro" title="Menu">
+            <a href="/" title="Menu">
               <i className="fa-solid fa-bars"></i>
             </a>
           </li>
@@ -59,6 +59,12 @@ export default function HeaderPrimary() {
           </li>
         </ul>
       </div>
+
+      <section className="header-banner">
+        <div className="header-banner d-lg-none d-sm-block">
+          <img src="/images/banners/banner-low.png" alt="Monochrome Banner" />
+        </div>
+      </section>
     </section>
   );
 }

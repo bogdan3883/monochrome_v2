@@ -1,12 +1,24 @@
 .header-connect {
   float: left;
+  font-size: 20px;
+
   li {
     display: inline-block;
   }
 }
 
+@include media-breakpoint-up('lg') {
+  .header-secondary {
+    background: url('/images/banners/banner.png') center center no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+}
+
 .header-controls {
   float: right;
+  font-size: 20px;
+
   li {
     display: inline-block;
 
@@ -29,12 +41,12 @@
 .search-box {
   border: 1px solid gray;
 }
-.header-banner {
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
+// .header-banner {
+//   img {
+//     width: 100%;
+//     height: auto;
+//   }
+// }
 // .header-banner {
 //   position: relative;
 //   img {
