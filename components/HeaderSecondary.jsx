@@ -1,6 +1,6 @@
 export default function HeaderSecondary() {
   return (
-    <section className="header-secondary ">
+    <section className="header-secondary">
       <section className="header-secondary-inner container d-none d-lg-block">
         <div className="header-connect m-5">
           <ul className="">
@@ -69,24 +69,24 @@ export default function HeaderSecondary() {
           </ul>
         </div>
       </section>
-      <section className="header-secondary-responsive container d-lg-none row">
-        <ul>
-          <li className="d-inline-block text-uppercase my-3 col-9">
-            <a href="/" title="Home">
-              Monochrome
-            </a>
-          </li>
-          <li className="d-inline-block col-1">
+      <section className="header-secondary-responsive m-0 py-3 d-lg-none row">
+        <p className="text-center m-0 text-uppercase col-6 p-0 ">
+          <a href="/" title="Home">
+            Monochrome
+          </a>
+        </p>
+        <ul className="col-6 p-0 d-flex">
+          <li className="col-2 offset-4">
             <a href="/" title="Account">
               <i class="fa-solid fa-user text-dark"></i>
             </a>
           </li>
-          <li className="d-inline-block col-1">
+          <li className="col-2">
             <a href="/" title="Whishlist">
               <i class="fa-solid fa-heart text-dark"></i>
             </a>
           </li>
-          <li className="d-inline-block col-1">
+          <li className="col-2">
             <a href="/" title="Cart">
               <i class="fa-solid fa-cart-shopping text-dark"></i>
             </a>

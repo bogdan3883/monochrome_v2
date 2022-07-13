@@ -108,25 +108,27 @@ export default function Footer() {
         </section>
       </section>
 
-      <section className="footer-inner-responsive d-lg-none d-sm-block">
-        <section className="footer-connect-responsive container">
-          <h3 className="text-center pt-4">Let's connect</h3>
-          <ul className="container text-center">
-            <li className="text-center mb-4">
-              <p>Be the first to recieve exclusive offers</p>
-            </li>
-            <li className=" container">
-              <input
-                type="email"
-                className="w-100"
-                name="email"
-                id="email"
-                placeholder="Email"
-              />
-              <button type="email" className="text-uppercase w-50 mt-3">
-                Submit
-              </button>
-            </li>
+      <section className="footer-inner-responsive  d-lg-none">
+        <section className="footer-connect-responsive ">
+          <h3 className="text-center  pt-4">Let's connect</h3>
+          <ul className="text-center container">
+            <div className="container">
+              <li className="text-center mb-4">
+                <p>Be the first to recieve exclusive offers</p>
+              </li>
+              <li className="">
+                <input
+                  type="email"
+                  className="w-75"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+                <button type="email" className="text-uppercase col w-50 mt-3">
+                  Submit
+                </button>
+              </li>
+            </div>
             <li className="text-center pt-4">
               <p>
                 I agree with the <a href="/">Privacy Policy</a> and I want to
@@ -140,23 +142,23 @@ export default function Footer() {
           <h3 className="d-flex justify-content-center">
             We are highly likeable
           </h3>
-          <ul className="container row py-3 m-0">
-            <li className="col-3 text-center">
-              <a href="https://x.ro" title="Youtube">
+          <ul className="d-flex justify-content-center gap-3 py-3 m-0">
+            <li className="">
+              <a href="https://x.ro" title="Youtube" className="">
                 <i class="fa-brands fa-youtube"></i>
               </a>
             </li>
-            <li className="col-3 text-center">
+            <li className="">
               <a href="https://x.ro" title="Twitter">
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
-            <li className="col-3 text-center">
+            <li className="">
               <a href="https://x.ro" title="Facebook">
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
-            <li className="col-3 text-center">
+            <li className="">
               <a href="https://x.ro" title="Instagram">
                 <i class="fa-brands fa-instagram"></i>
               </a>
@@ -164,44 +166,47 @@ export default function Footer() {
           </ul>
         </section>
 
-        <section className="footer-nav-responsive row py-3">
+        <section className="footer-nav-responsive p-4">
           <h3 className="text-center py-4">How can we help?</h3>
-          <ul className="col-4 offset-2">
-            <li>
+          <ul className="row container text-center m-0">
+            <li className="col-6">
               <a href="/">about us</a>
             </li>
-            <li>
+            <li className="col-6">
               <a href="/">careers</a>
             </li>
-            <li>
+            <li className="col-6">
               <a href="/">affiliates</a>
             </li>
-            <li>
+            <li className="col-6">
               <a href="/">advertising</a>
             </li>
-          </ul>
-
-          <ul className="col-4">
-            <li>
+            <li className="col-6">
               <a href="/">style and fit</a>
             </li>
-            <li>
+            <li className="col-6">
               <a href="/">faqs</a>
             </li>
-            <li>
+            <li className="col-6">
               <a href="/">delivery</a>
             </li>
-            <li>
+            <li className="col-6">
               <a href="/">returns</a>
             </li>
           </ul>
 
-          <a className="terms text-center pt-4" href="/">
-            terms & conditions
-          </a>
-          <a className="privacy text-center" href="/">
-            privacy & cookies
-          </a>
+          <ul>
+            <li>
+              <a className="terms text-center pt-4" href="/">
+                terms & conditions
+              </a>
+            </li>
+            <li>
+              <a className="privacy text-center" href="/">
+                privacy & cookies
+              </a>
+            </li>
+          </ul>
         </section>
       </section>
     </section>

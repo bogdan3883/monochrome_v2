@@ -60,19 +60,21 @@
     }
   }
 
-  ul:nth-of-type(1) {
-    border-right: 2px solid $brand-secondary;
-  }
+  // ul:nth-of-type(1) {
+  //   border-right: 2px solid $brand-secondary;
+  // }
 
   .terms {
     font-size: 14px;
     font-family: Helvetica, Arial;
     font-style: italic;
+    text-decoration: underline;
   }
 
   .privacy {
     font-size: 14px;
     font-family: Helvetica, Arial;
     font-style: italic;
+    text-decoration: underline;
   }
 }

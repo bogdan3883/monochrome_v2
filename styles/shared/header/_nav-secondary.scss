@@ -41,16 +41,7 @@
 .search-box {
   border: 1px solid gray;
 }
-// .header-banner {
-//   img {
-//     width: 100%;
-//     height: auto;
-//   }
-// }
-// .header-banner {
-//   position: relative;
-//   img {
-//     width: 100%;
-//     max-width: 1000px;
-//   }
-// }
+
+.header-secondary-responsive > * {
+  font-size: 19px;
+}

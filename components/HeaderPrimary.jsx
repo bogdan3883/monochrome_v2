@@ -36,33 +36,38 @@ export default function HeaderPrimary() {
         </ul>
       </nav>
 
-      <div className="nav-search d-lg-none">
-        <ul>
-          <li className="hamburger">
+      <div className="nav-primary-responsive container d-lg-none">
+        <ul className="p-2">
+          <li className="hamburger col">
             <a href="/" title="Menu">
               <i className="fa-solid fa-bars"></i>
             </a>
           </li>
 
-          <li className="search-box">
+          <li className="search-box col d-flex">
             <input
               type="text"
               name="nav-search"
               id="nav-search"
               placeholder="search"
               required
+              className="col-md"
             ></input>
 
-            <button type="submit" title="Search">
+            <button type="submit" title="Search" className="col-md offset-md-3">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </li>
         </ul>
       </div>
 
-      <section className="header-banner">
-        <div className="header-banner d-lg-none d-sm-block">
-          <img src="/images/banners/banner-low.png" alt="Monochrome Banner" />
+      <section className="header-banner d-lg-none">
+        <div className="header-banner ">
+          <img
+            src="/images/banners/banner-low.png"
+            alt="Monochrome Banner"
+            className=""
+          />
         </div>
       </section>
     </section>
