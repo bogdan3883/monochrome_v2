@@ -169,7 +169,7 @@ export default function Footer() {
         <section className="footer-nav-responsive p-4">
           <h3 className="text-center py-4">How can we help?</h3>
           <ul className="row container text-center m-0">
-            <li className="col-6">
+            <li className="col-6  border-right-0 border-white">
               <a href="/">about us</a>
             </li>
             <li className="col-6">
