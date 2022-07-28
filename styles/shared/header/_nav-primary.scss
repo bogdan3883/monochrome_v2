@@ -12,6 +12,18 @@
     text-transform: uppercase;
     font-size: 19px;
     color: $brand-secondary;
+    transition: transform 0.4s ease;
+  }
+
+  a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  li:hover,
+  li:focus,
+  li:active {
+    transform: scale(1.1);
   }
 }
 
@@ -54,5 +66,17 @@
   img {
     width: 100%;
     height: auto;
+  }
+
+  [type='button'] {
+    position: absolute;
+    display: flex;
+    right: 46px;
+    top: 250px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
   }
 }

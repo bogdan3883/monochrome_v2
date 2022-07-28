@@ -62,12 +62,13 @@ export default function HeaderPrimary() {
       </div>
 
       <section className="header-banner d-lg-none">
-        <div className="header-banner ">
+        <div className="header-banner">
           <img
             src="/images/banners/banner-low.png"
             alt="Monochrome Banner"
             className=""
           />
+          <button type="button">New in</button>
         </div>
       </section>
     </section>

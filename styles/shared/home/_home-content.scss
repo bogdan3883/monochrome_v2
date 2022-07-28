@@ -1,0 +1,40 @@
+.home-content-banner-responsive {
+  img {
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+  }
+
+  .home-content-text-responsive {
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'PlayfairDisplay-Regular';
+      font-size: 24px;
+    }
+
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+  }
+}
+
+.home-content-banner {
+  img {
+    height: 600px;
+    width: 600px;
+  }
+}
+
+.home-content-text {
+  h2 {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: 'PlayfairDisplay-Regular';
+    padding-bottom: 20px;
+  }
+
+  font-family: Helvetica, Arial;
+  font-size: 19px;
+  text-align: start;
+  color: #2b2b2b;
+}

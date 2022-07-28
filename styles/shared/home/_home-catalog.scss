@@ -1,0 +1,38 @@
+.home-catalog-responsive {
+  img {
+    height: 148px;
+    width: 148px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'PlayfairDisplay-Regular';
+    text-align: center;
+    border-top: 1px solid $brand-primary;
+    margin-top: 30px;
+    padding-top: 10px;
+  }
+
+  ul:nth-of-type() {
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+
+    a:nth-of-type(1) {
+      font-size: 21px;
+      font-weight: bold;
+    }
+    a:nth-of-type(2) {
+      font-size: 15px;
+    }
+  }
+
+  [type='button'] {
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+  }
+}

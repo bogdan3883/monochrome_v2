@@ -76,7 +76,7 @@ export default function Footer() {
             <ul className="">
               <li>
                 <p>Sign up to our newsletter</p>
-                <input type="email" />
+                <input type="email" placeholder="email" />
                 <input
                   type="button"
                   value="Submit"

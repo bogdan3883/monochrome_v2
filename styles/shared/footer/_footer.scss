@@ -9,12 +9,25 @@
     border: 0;
     color: gray;
   }
+
+  .fa-brands:hover {
+    color: #707070;
+  }
 }
 
 .footer-connect-responsive {
   [type='email'] {
     font-family: Helvetica, Arial;
     font-size: 16px;
+  }
+
+  button {
+    border-radius: 20px;
+  }
+
+  button:hover {
+    background-color: black;
+    color: white;
   }
 }
 
@@ -39,6 +52,10 @@
   ul {
     li {
       font-size: 25px;
+
+      .fa-brands:hover {
+        color: #707070;
+      }
     }
   }
 }

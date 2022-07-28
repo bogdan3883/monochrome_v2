@@ -3,7 +3,7 @@ export default function HeaderSecondary() {
     <section className="header-secondary">
       <section className="header-secondary-inner container d-none d-lg-block">
         <div className="header-connect m-5">
-          <ul className="">
+          <ul>
             <li>
               <a href="https://x.ro" title="Youtube">
                 <i class="fa-brands fa-youtube text-white"></i>
