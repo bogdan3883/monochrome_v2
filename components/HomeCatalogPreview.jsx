@@ -1,6 +1,6 @@
 export default function HomeCatalogPreview() {
   return (
-    <section className="home-catalog-preview-responsive">
+    <section className="home-catalog-preview">
       <section className="home-catalog-preview-responsive container d-lg-none">
         <ul className="container row m-0">
           <li>
@@ -79,7 +79,7 @@ export default function HomeCatalogPreview() {
         </ul>
       </section>
 
-      <section className="home-catalog-preview container d-none">
+      <section className="home-catalog-preview-second container d-none">
         <ul className="container row">
           <li>
             <h1>New stuff</h1>

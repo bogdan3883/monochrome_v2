@@ -69,24 +69,24 @@ export default function HeaderSecondary() {
           </ul>
         </div>
       </section>
-      <section className="header-secondary-responsive m-0 py-3 d-lg-none row">
-        <p className="text-center m-0 text-uppercase col-6 p-0 ">
+      <section className="header-secondary-responsive container m-0  py-3 d-lg-none row">
+        <p className="text-left m-0 text-uppercase col p-0 ">
           <a href="/" title="Home">
             Monochrome
           </a>
         </p>
-        <ul className="col-6 p-0 d-flex">
-          <li className="col-2 offset-4">
+        <ul className="col text-end p-0 d-flex">
+          <li className="col-4">
             <a href="/" title="Account">
               <i class="fa-solid fa-user text-dark"></i>
             </a>
           </li>
-          <li className="col-2">
+          <li className="col-4">
             <a href="/" title="Whishlist">
               <i class="fa-solid fa-heart text-dark"></i>
             </a>
           </li>
-          <li className="col-2">
+          <li className="col-4">
             <a href="/" title="Cart">
               <i class="fa-solid fa-cart-shopping text-dark"></i>
             </a>

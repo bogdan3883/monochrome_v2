@@ -2,7 +2,7 @@ export default function HeaderPrimary() {
   return (
     <section className="header-primary">
       <nav className="nav-primary container d-none d-lg-block">
-        <ul>
+        <ul className="">
           <li>
             <a href="https://x.ro" title="New Arrivals">
               New arrivals
@@ -36,25 +36,24 @@ export default function HeaderPrimary() {
         </ul>
       </nav>
 
-      <div className="nav-primary-responsive container d-lg-none">
-        <ul className="p-2">
-          <li className="hamburger col">
+      <div className="nav-primary-responsive container   d-lg-none">
+        <ul className=" row">
+          <li className="hamburger col-6">
             <a href="/" title="Menu">
               <i className="fa-solid fa-bars"></i>
             </a>
           </li>
 
-          <li className="search-box col d-flex">
+          <li className="search-box col-6">
             <input
+              className=" col-6"
               type="text"
               name="nav-search"
               id="nav-search"
               placeholder="search"
               required
-              className="col-md"
             ></input>
-
-            <button type="submit" title="Search" className="col-md offset-md-3">
+            <button className="col-6 text-end" type="submit" title="Search">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </li>
@@ -68,7 +67,7 @@ export default function HeaderPrimary() {
             alt="Monochrome Banner"
             className=""
           />
-          <button type="button">New in</button>
+          {/* <button type="button">New in</button> */}
         </div>
       </section>
     </section>
