@@ -1,8 +1,8 @@
 export default function HeaderPrimary() {
   return (
     <section className="header-primary">
-      <nav className="nav-primary container d-none d-lg-block">
-        <ul className="">
+      <nav className="nav-primary container p-0 d-none d-lg-block">
+        <ul className="container px-4">
           <li>
             <a href="https://x.ro" title="New Arrivals">
               New arrivals
@@ -36,8 +36,8 @@ export default function HeaderPrimary() {
         </ul>
       </nav>
 
-      <div className="nav-primary-responsive container   d-lg-none">
-        <ul className=" row">
+      <div className="nav-primary-responsive container d-lg-none">
+        <ul className="container row m-0">
           <li className="hamburger col-6">
             <a href="/" title="Menu">
               <i className="fa-solid fa-bars"></i>

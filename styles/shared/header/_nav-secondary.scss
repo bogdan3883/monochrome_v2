@@ -1,9 +1,12 @@
 .header-connect {
-  float: left;
   font-size: 20px;
 
   li {
     display: inline-block;
+
+    .fa-brands:hover {
+      color: red;
+    }
   }
 }
 
@@ -11,12 +14,12 @@
   .header-secondary {
     background: url('/images/banners/banner.png') center center no-repeat;
     background-size: cover;
+    width: 100%;
     height: 500px;
   }
 }
 
 .header-controls {
-  float: right;
   font-size: 20px;
 
   li {

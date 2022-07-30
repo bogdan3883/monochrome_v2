@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <section className="footer">
-      <section className="footer-inner container d-none d-lg-block">
-        <section className="footer-bottom py-3 row">
-          <section className="footer-contact col">
+      <section className="footer-inner container p-0 d-none d-lg-block">
+        <section className="footer-bottom container m-0 py-3 px-4 row">
+          <section className="footer-contact col-3 p-1">
             <ul>
               <li>
                 <a href="tel:+44 (0)10 2345 6789" title="Call us">
@@ -23,7 +23,7 @@ export default function Footer() {
             </ul>
           </section>
 
-          <nav className="footer-nav col">
+          <nav className="footer-nav col-3 p-1">
             <ul>
               <li>
                 <a href="/" title="Style">
@@ -47,7 +47,7 @@ export default function Footer() {
               </li>
             </ul>
           </nav>
-          <nav className="footer-nav col">
+          <nav className="footer-nav col-3 p-1">
             <ul>
               <li>
                 <a href="/" title="About us">
@@ -72,7 +72,7 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <section className="footer-connect col">
+          <section className="footer-connect col-3 p-1">
             <ul className="">
               <li>
                 <p>Sign up to our newsletter</p>
@@ -167,46 +167,48 @@ export default function Footer() {
         </section>
 
         <section className="footer-nav-responsive p-4">
-          <h3 className="text-center py-4">How can we help?</h3>
-          <ul className="row container text-center m-0">
-            <li className="col-6  border-right-0 border-white">
-              <a href="/">about us</a>
-            </li>
-            <li className="col-6">
-              <a href="/">careers</a>
-            </li>
-            <li className="col-6">
-              <a href="/">affiliates</a>
-            </li>
-            <li className="col-6">
-              <a href="/">advertising</a>
-            </li>
-            <li className="col-6">
-              <a href="/">style and fit</a>
-            </li>
-            <li className="col-6">
-              <a href="/">faqs</a>
-            </li>
-            <li className="col-6">
-              <a href="/">delivery</a>
-            </li>
-            <li className="col-6">
-              <a href="/">returns</a>
-            </li>
-          </ul>
+          <div className="container">
+            <h3 className="text-center py-4">How can we help?</h3>
+            <ul className="row text-center m-0">
+              <li className="col-6  border-right-0 border-white">
+                <a href="/">about us</a>
+              </li>
+              <li className="col-6">
+                <a href="/">careers</a>
+              </li>
+              <li className="col-6">
+                <a href="/">affiliates</a>
+              </li>
+              <li className="col-6">
+                <a href="/">advertising</a>
+              </li>
+              <li className="col-6">
+                <a href="/">style and fit</a>
+              </li>
+              <li className="col-6">
+                <a href="/">faqs</a>
+              </li>
+              <li className="col-6">
+                <a href="/">delivery</a>
+              </li>
+              <li className="col-6">
+                <a href="/">returns</a>
+              </li>
+            </ul>
 
-          <ul>
-            <li>
-              <a className="terms text-center pt-4" href="/">
-                terms & conditions
-              </a>
-            </li>
-            <li>
-              <a className="privacy text-center" href="/">
-                privacy & cookies
-              </a>
-            </li>
-          </ul>
+            <ul>
+              <li>
+                <a className="terms text-center pt-4" href="/">
+                  terms & conditions
+                </a>
+              </li>
+              <li>
+                <a className="privacy text-center" href="/">
+                  privacy & cookies
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
       </section>
     </section>

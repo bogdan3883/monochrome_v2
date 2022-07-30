@@ -2,8 +2,8 @@ export default function HeaderSecondary() {
   return (
     <section className="header-secondary">
       <section className="header-secondary-inner container d-none d-lg-block">
-        <div className="header-connect m-5">
-          <ul>
+        <div className="row pt-5">
+          <ul className="header-connect col-6 text-center p-0">
             <li>
               <a href="https://x.ro" title="Youtube">
                 <i class="fa-brands fa-youtube text-white"></i>
@@ -34,10 +34,8 @@ export default function HeaderSecondary() {
               </a>
             </li>
           </ul>
-        </div>
 
-        <div className="header-controls">
-          <ul className="m-5">
+          <ul className="header-controls col-6 text-center p-0">
             <li className="search-box">
               <button type="submit" title="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -58,40 +56,42 @@ export default function HeaderSecondary() {
             </li>
             <li>
               <a href="https://x.ro" title="Whishlist">
-                <i class="fa-solid fa-heart text-dark"></i>
+                <i class=" fa-solid fa-heart text-dark"></i>
               </a>
             </li>
             <li>
               <a href="https://x.ro" title="Cart">
-                <i class="fa-solid fa-cart-shopping text-dark mx-3"></i>
+                <i class=" fa-solid fa-cart-shopping text-dark mx-3"></i>
               </a>
             </li>
           </ul>
         </div>
       </section>
-      <section className="header-secondary-responsive container m-0  py-3 d-lg-none row">
-        <p className="text-left m-0 text-uppercase col p-0 ">
-          <a href="/" title="Home">
-            Monochrome
-          </a>
-        </p>
-        <ul className="col text-end p-0 d-flex">
-          <li className="col-4">
-            <a href="/" title="Account">
-              <i class="fa-solid fa-user text-dark"></i>
+      <section className="header-secondary-responsive container py-3 d-lg-none">
+        <div className="row">
+          <p className="text-left m-0 text-uppercase col-6 ">
+            <a href="/" title="Home">
+              Monochrome
             </a>
-          </li>
-          <li className="col-4">
-            <a href="/" title="Whishlist">
-              <i class="fa-solid fa-heart text-dark"></i>
-            </a>
-          </li>
-          <li className="col-4">
-            <a href="/" title="Cart">
-              <i class="fa-solid fa-cart-shopping text-dark"></i>
-            </a>
-          </li>
-        </ul>
+          </p>
+          <ul className="col-6 text-end d-flex">
+            <li className="col-4">
+              <a href="/" title="Account">
+                <i class="fa-solid fa-user text-dark"></i>
+              </a>
+            </li>
+            <li className="col-4">
+              <a href="/" title="Whishlist">
+                <i class="fa-solid fa-heart text-dark"></i>
+              </a>
+            </li>
+            <li className="col-4">
+              <a href="/" title="Cart">
+                <i class="fa-solid fa-cart-shopping text-dark"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </section>
   );
