@@ -4,7 +4,7 @@ export default function HeaderPrimary() {
       <nav className="nav-primary container p-0 d-none d-lg-block">
         <ul className="container px-4">
           <li>
-            <a href="https://x.ro" title="New Arrivals">
+            <a href="pages/newArrivals.jsx" title="New Arrivals">
               New arrivals
             </a>
           </li>

@@ -10,10 +10,20 @@ export default function (HomeContent) {
         <div className="home-content-text-responsive container my-4 p-0">
           <h2>Watches for entrepreneurs</h2>
           <p>
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings of the great
-            explorer of the truth, the master-builder of human happiness.
+            Timelessness and sustainability. These are two words that define our
+            approach when crafting every one of our best mens watches. We
+            believe there’s no better way to embody these characteristics than
+            by creating nice watches for men that last a lifetime. From the mesh
+            straps to the hooded lugs, you’ll find a striking attention to
+            detail in all of our gentleman timepieces. One of our greatest
+            influences when designing each wristwatch for men comes from the
+            craftsmanship and earth-friendly processes of Denmark. From seaside
+            to city center, the Danish approach values a boldness in simplicity
+            that is reflected in our men watches collection. Our black watches
+            for men embody an eye-catching minimalism while our silver watch
+            mens styles stand out in all the right ways. Whether you’re browsing
+            for mens casual watches or in need of a men’s dress watch, you’re
+            sure to find an iconic piece you’ll love year after year.
           </p>
         </div>
       </div>
@@ -28,25 +38,21 @@ export default function (HomeContent) {
           <div className="home-content-text col-6 container">
             <h2>Watches for entrepreneurs</h2>
             <p>
-              But I must explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
-              account of the system, and expound the actual teachings of the
-              great explorer of the truth, the master-builder of human
-              happiness. But I must explain to you how all this mistaken idea of
-              denouncing pleasure and praising pain was born and I will give you
-              a complete account of the system, and expound the actual teachings
-              of the great explorer of the truth, the master-builder of human
-              happiness. No one rejects, dislikes, or avoids pleasure itself,
-              because.
-            </p>
-            <p>
-              No one rejects, dislikes, or avoids pleasure itself, because. But
-              I must explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
-              account of the system, and expound the actual teachings of the
-              great explorer of the truth, the master-builder of human
-              happiness. No one rejects, dislikes, or avoids pleasure itself,
-              because.
+              Timelessness and sustainability. These are two words that define
+              our approach when crafting every one of our best mens watches. We
+              believe there’s no better way to embody these characteristics than
+              by creating nice watches for men that last a lifetime. From the
+              mesh straps to the hooded lugs, you’ll find a striking attention
+              to detail in all of our gentleman timepieces. One of our greatest
+              influences when designing each wristwatch for men comes from the
+              craftsmanship and earth-friendly processes of Denmark. From
+              seaside to city center, the Danish approach values a boldness in
+              simplicity that is reflected in our men watches collection. Our
+              black watches for men embody an eye-catching minimalism while our
+              silver watch mens styles stand out in all the right ways. Whether
+              you’re browsing for mens casual watches or in need of a men’s
+              dress watch, you’re sure to find an iconic piece you’ll love year
+              after year.
             </p>
           </div>
         </div>
